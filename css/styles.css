@@ -45,6 +45,7 @@ h1 {
 
 a {
   color: var(--accent-color);
+  padding: var(--standard-padding);
 }
 a:visited {
   color: var(--secondary-color-lighten);
