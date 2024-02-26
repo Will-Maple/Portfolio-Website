@@ -44,6 +44,11 @@ h1 {
   margin-bottom: 1.2;
 }
 
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
 a {
   color: var(--accent-color);
   padding: var(--standard-padding);
@@ -151,6 +156,14 @@ button, .button {
 @media all and (min-width: 0px) {
   .portfolio {
     grid-template-columns: 1fr;
+  }
+
+  .portfolio_item {
+    border: 2px solid #6f406f;
+    border-radius: 50px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media all and (min-width: 482px) {
