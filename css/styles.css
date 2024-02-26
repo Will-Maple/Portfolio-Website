@@ -29,8 +29,14 @@ body {
   background-color: var(--background-color);
   font-family: "Libre Baskerville", serif;
   font-size: 16px;
-  line-height: 1;
+  line-height: 24px;
   text-align: center;
+}
+
+p.center {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -55,8 +61,20 @@ a:focus {
 }
 
 table {
-  margin: 15px;
-  padding: var(--standard-padding);
+  margin: 35px;
+  padding: 35px;
+}
+
+table.center {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  width: 110px;
+  max-width: 110px;
+  padding: 10px;
 }
 
 .button__secondary, button, .button {
