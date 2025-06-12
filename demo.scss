@@ -122,11 +122,11 @@ button,
     max-width: 900px;
     margin-right: auto;
 
-    &_potrait {
+    &_portrait {
         float: right;
         width: 60%;
         max-width: 400px;
-        margin-right: 40px;
+        margin-left: 40px;
         border-radius: 35%;
     }
 }
