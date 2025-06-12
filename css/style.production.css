@@ -150,10 +150,13 @@ button, .button {
 .contact {
   max-width: 900px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact_stuff {
-  display: inline-block;
+  display: flex;
+  width: 35%;
 }
 
 .contact_portrait {
