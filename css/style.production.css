@@ -152,6 +152,10 @@ button, .button {
   margin: 0 auto;
 }
 
+.contact_stuff {
+  display: inline-block;
+}
+
 .contact_portrait {
   float: right;
   width: 60%;
