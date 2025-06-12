@@ -139,7 +139,7 @@ button, .button {
   max-width: 900px;
   margin: 0 auto;
 }
-.profile_potrait {
+.profile_portrait {
   float: left;
   width: 60%;
   max-width: 400px;
@@ -152,7 +152,7 @@ button, .button {
   margin: 0 auto;
 }
 
-.contact_portait {
+.contact_portrait {
   float: right;
   width: 60%;
   max-width: 400px;
