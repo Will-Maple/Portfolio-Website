@@ -147,6 +147,19 @@ button, .button {
   border-radius: 35%;
 }
 
+.contact {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact_portait {
+  float: right;
+  width: 60%;
+  max-width: 400px;
+  margin-right: 40px;
+  border-radius: 35%;
+}
+
 .page-footer {
   clear: both;
   display: -webkit-box;
