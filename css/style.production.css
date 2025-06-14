@@ -137,19 +137,27 @@ button, .button {
 
 .profile {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.profile_stuff {
+  width: 35%;
 }
 .profile_portrait {
-  float: left;
   width: 60%;
   max-width: 400px;
-  margin-right: 40px;
   border-radius: 35%;
 }
 
 .contact {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
+  display: flex;
+  align-items: center;
+  gap: 140px;
 }
 
 .contact_stuff {
@@ -157,11 +165,8 @@ button, .button {
 }
 
 .contact_portrait {
-  float: right;
   width: 60%;
   max-width: 400px;
-  margin-right: 40px;
-  margin-bottom: 5px;
   border-radius: 35%;
 }
 
