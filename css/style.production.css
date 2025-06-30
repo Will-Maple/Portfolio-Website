@@ -56,6 +56,7 @@ p.center {
 h1 {
   font-weight: 700;
   margin-bottom: 1.2;
+  font-size: 30px;
 }
 
 h2 {
@@ -79,6 +80,10 @@ a:active {
 a:focus {
   text-decoration: none;
   outline: 2px solid var(--secondary-color);
+}
+
+.styleless-link {
+  padding: 0;
 }
 
 table {
@@ -212,6 +217,7 @@ button, .button {
 }
 @media all and (min-width: 0px) {
   .portfolio {
+    display: grid;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
@@ -219,10 +225,18 @@ button, .button {
   .portfolio_item {
     border: 2px solid #6f406f;
     border-radius: 50px;
-    width: 65%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5px;
   }
+
+    .portfolio_img {
+      margin-top: 4px;
+      margin-bottom: 0;
+      max-width: 95%;
+      border-radius: 15%;
+    }
 }
 @media all and (min-width: 482px) {
   .portfolio {
@@ -232,7 +246,7 @@ button, .button {
 }
 @media all and (max-width: 767px) {
   .portfolio {
-    grid-gap: 10px;
+    grid-gap: 3px;
   }
 
   .portfolio_item {
@@ -250,16 +264,12 @@ button, .button {
 }
 @media all and (min-width: 768px) {
   .portfolio {
-    -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+    -ms-grid-columns: 1fr 5px 1fr 5px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 5px;
   }
 
   .portfolio_item {
     padding-bottom: 15px;
-  }
-
-  h1 {
-    font-size: 30px;
   }
 }
